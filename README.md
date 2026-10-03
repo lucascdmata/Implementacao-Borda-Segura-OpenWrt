@@ -27,8 +27,8 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * Fase 2 parte 1 Concluída ✅ - Firewall e políticas de acesso
 * Fase 2 parte 2 Em andamento 🔄 - VPN WireGuard
 
-## Incidentes Registrados
+## Registro de Incidentes
  
-| ID      | Descrição            | Status
-|---------|------------|---------|
-| INC-001 | Recuperação de       | Resolvido
+| ID | Descrição | Status |
+|----|-----------|---------|
+| INC-001 | docs/Incidentes/Incidente 001/Incidente 001.md | ✅ Concluído |
