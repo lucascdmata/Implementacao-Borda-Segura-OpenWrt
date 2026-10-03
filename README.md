@@ -20,3 +20,8 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 ---
 *Desenvolvido como parte dos estudos práticos em Redes de Computadores e CCNA.*
+
+## Atualizações
+
+* 1 - Introdução e Cenário Fictício - Concluído
+* 2. Objetivos - Em andamento
