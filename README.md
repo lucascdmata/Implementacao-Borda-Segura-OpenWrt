@@ -1,6 +1,6 @@
 # 🛡️ Implementação de Borda Corporativa Segura com OpenWrt
 
-Projeto de infraestrutura de redes focado em segmentação corporativa, isolamento de visitantes (Guest Wi-Fi) e acesso remoto seguro via VPN (Zero-Trust), aplicando conceitos práticos de redes e certificação CCNA.
+Projeto de infraestrutura de redes focado em segmentação corporativa, isolamento de visitantes (Guest Wi-Fi) e acesso remoto seguro via VPN, aplicando conceitos práticos de redes e certificação CCNA.
 
 ## 📌 Cenário Fictício
 * **Problema:** Uma filial corporativa precisa prover Wi-Fi para visitantes mantendo a rede interna protegida, além de permitir acesso seguro de funcionários em *Home Office* (via 4G/5G) a um servidor interno.
