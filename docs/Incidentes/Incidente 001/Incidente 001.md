@@ -139,3 +139,7 @@ Após a redefinição da credencial foi executado: reboot (para reiniciar o rote
 - Manter documentação atualizada das senhas administrativas.
 - Configurar acesso SSH logo após a implantação inicial.
 - Validar periodicamente os procedimentos de recuperação.
+
+### Resolvido
+
+As imagens podem ser consultadas aqui: docs/Incidentes/Incidente 001/INC_001_Imagens
