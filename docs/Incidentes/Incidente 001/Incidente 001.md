@@ -142,4 +142,4 @@ Após a redefinição da credencial foi executado: reboot (para reiniciar o rote
 
 ### Resolvido
 
-As imagens podem ser consultadas aqui: docs/Incidentes/Incidente 001/INC_001_Imagens
+As imagens podem ser consultadas aqui: https://github.com/lucascdmata/Implementacao-Borda-Segura-OpenWrt/tree/bb9aa02b0586d48672bf54341bcc002f82cc132d/docs/Incidentes/Incidente%20001/INC_001_Imagens
