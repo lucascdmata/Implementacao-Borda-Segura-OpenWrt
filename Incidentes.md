@@ -29,4 +29,4 @@ Interrupção temporária das atividades de configuração do projeto.
 - Configurar acesso SSH logo após a implantação inicial.
 - Validar periodicamente os procedimentos de recuperação.
  
-Status: Em tratamento.
+##### Status: Em tratamento.
