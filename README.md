@@ -24,4 +24,4 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 ## Atualizações
 
 * 1 - Introdução e Cenário Fictício - Concluído
-* 2. Objetivos - Em andamento
+* 2 - Objetivos - Em andamento
