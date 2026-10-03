@@ -26,3 +26,9 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * Fase 1 Concluída ✅ - Introdução e Cenário Fictício
 * Fase 2 parte 1 Concluída ✅ - Firewall e políticas de acesso
 * Fase 2 parte 2 Em andamento 🔄 - VPN WireGuard
+
+## Incidentes Registrados
+ 
+| ID      | Descrição            | Status
+|---------|------------|---------|
+| INC-001 | Recuperação de       | Resolvido
