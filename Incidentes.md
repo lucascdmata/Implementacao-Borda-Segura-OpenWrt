@@ -1,11 +1,12 @@
 ## Diário de Incidentes
  
 ### Incidente 001 - Perda de Credenciais Administrativas
- 
+
 Data: 03/Outubro/2026
  
 #### Problema
-Durante a implementação do ambiente OpenWrt, a senha administrativa do roteador não foi documentada adequadamente, impossibilitando o acesso via interface LuCI.
+Eu esqueci a senha administrativa do roteador.
+Após avaliar os arquivos de configuração, constatei que durante a implementação do ambiente OpenWrt, a senha administrativa do roteador não foi documentada adequadamente, impossibilitando o acesso via interface LuCI / SSH.
  
 #### Impacto
 Interrupção temporária das atividades de configuração do projeto.
