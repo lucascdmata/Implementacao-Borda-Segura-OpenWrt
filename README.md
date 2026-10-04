@@ -26,6 +26,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * Fase 1 Concluída ✅ - Introdução e Cenário Fictício
 * Fase 2 parte 1 Concluída ✅ - Firewall e políticas de acesso
 * Fase 2 parte 2 Em andamento 🔄 - VPN WireGuard
+* Fase 2 parte 3 Em andamento - Instalação do windows server 2022 no VirtualBox para utilização do AD
 
 ## Registro de Incidentes
  
