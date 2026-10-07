@@ -18,9 +18,9 @@
 * **Objetivo Geral:** Criar uma infraestrutura de rede segura que isole diferentes perfis de usuários na borda e permita o acesso remoto criptografado à rede corporativa.
 * **Objetivos Específicos:**
   1. Implementar segmentação de rede lógica criando uma LAN Corporativa e uma rede Guest (Visitantes).
-  2. Configurar serviços de DHCP dedicados para cada segmento de rede.
-  3. Implementar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa.
-  4. Configurar um túnel VPN criptografado para acesso externo seguro.
+  2. Configurar serviços de DHCP dedicados para cada segmento de rede. (Em desenvolvimento)
+  3. Implementar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa. (Em desenvolvimento)
+  4. Configurar um túnel VPN criptografado para acesso externo seguro. (Em desenvolvimento)
   5. Estabelecer políticas restritivas de acesso limitando o tráfego da VPN apenas aos recursos estritamente necessários da LAN (em andamento).
   6. Criar um servidor Windows (em andamento)
   
