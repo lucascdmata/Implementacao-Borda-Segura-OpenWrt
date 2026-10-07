@@ -68,25 +68,32 @@ Escolha a versão desejada: selecione Windows Server 2022 Standard (Experiência
 ![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_08_Selecao_da_Versao_do_Windows_Server.png)
 
 
-IMG: Passo 9
 Aceite os termos de licença e clique em Avançar.
-![Criação]()
-IMG: Passo 9
 
-IMG: Passo 10
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_09_Termos_do_Aceite.png)
+
+
 Selecione Personalizada: instalar apenas o Windows (avançado).
-![Criação]()
-IMG: Passo 10
 
-IMG: Passo 11
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_10_Opcoes_Avancadas.png)
+
+
 Escolha o disco virtual criado e clique em Avançar. A instalação dos arquivos vai começar.
-![Criação]()
-IMG: Passo 11
 
-IMG: Passo 12
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_11_Particao_Selecao_do_Disco_para_Instalacao.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_12_Instalacao_Versao_2.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_12_Instalacao_Versao_3.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_12_Instalacao_Versao_4.png)
+
+
 O sistema vai reiniciar sozinho algumas vezes.
-![Criação]()
-IMG: Passo 13
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_13_Reinicializacao_Durante_a_Instalacao.png)
+
+
 
 ## Configurações Iniciais
 
