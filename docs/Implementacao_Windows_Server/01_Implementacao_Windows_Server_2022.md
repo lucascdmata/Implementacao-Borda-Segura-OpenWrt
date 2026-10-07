@@ -114,7 +114,7 @@ Para fazer o primeiro login, vá no menu superior do VirtualBox, clique em Entra
 
 Assim que a área de trabalho carregar, crie um snapshot para segurança. Vá em Máquina, Snapshot, em seguida coloque o nome do snapshot e dê OK.
 
-![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_18_Tela_Inicial.png
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_18_Tela_Inicial.png)
 
 ![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_19_Snapshoot_para_Seguranca.png)
 
