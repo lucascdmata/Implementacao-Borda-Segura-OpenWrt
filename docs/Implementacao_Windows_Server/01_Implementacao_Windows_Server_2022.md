@@ -6,20 +6,59 @@ Entre no site da Microsoft e procure pela ISO do windows Server 2022.
 
 Tenha o VirtualBox instalado em seu computador.
 
-!(criação)[Implementacao_Windows_Server/Imagens/01_Instalação_do_Windows_Server_2022_utilizando_VirtualBox/Passo_00_ISO.png]
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_00_ISO.png)
 
 ## Criação da Máquina Virtual
 
-IMG: Passo 1 
 Abra o VirtualBox e clique em Novo.
 Defina um Nome (ex: Windows Server 2022).
 Escolha o local onde o arquivo da máquina virtual será salvo (C:\Users\...\VirtualBox...)
 Em Imagem ISO, selecione o arquivo baixado (procure a ISO do Windows Server 2022)
 Escolha Tipo: Microsoft Windows e Versão: Windows 2022 (64-bit).
 
-![Criação](docs/Teste_teste_teste_08/Passo_07_Servidor_Renomeado_para_SRV_AD01.png)
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_01_Escolha_do_nome_e_Selecao_da_ISO.png)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
+
+![Criação]()
 
 
 IMG: Passo 1 
