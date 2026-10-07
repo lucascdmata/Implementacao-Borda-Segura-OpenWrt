@@ -1,6 +1,6 @@
 # Documentação Técnica: Implementação de Borda Corporativa Segura
 
-**Projeto:** Implementação de Borda Corporativa Segura: Segmentação de Redes (VLAN) e Acesso Remoto utilizando OpenWrt  
+**Projeto:** Implementação de Borda Corporativa Segura com OpenWrt e Active Directory
 **Autor:** Lucas  
 **Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes e certificação CCNA.
 
