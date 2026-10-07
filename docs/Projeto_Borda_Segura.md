@@ -22,11 +22,8 @@
   3. Implementar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa.
   4. Configurar um túnel VPN criptografado para acesso externo seguro.
   5. Estabelecer políticas restritivas de acesso limitando o tráfego da VPN apenas aos recursos estritamente necessários da LAN (em andamento).
-  6. Criar um servidor (em andamento)
- 
-
+  6. Criar um servidor Windows (em andamento)
   
-
 ## 3. Fases de Implementação e Documentação
 
 Abaixo estão os guias detalhados de cada etapa da construção desta infraestrutura, documentados passo a passo:
