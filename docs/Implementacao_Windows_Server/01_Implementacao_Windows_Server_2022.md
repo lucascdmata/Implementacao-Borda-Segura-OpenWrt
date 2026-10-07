@@ -98,24 +98,27 @@ O sistema vai reiniciar sozinho algumas vezes.
 ## Configurações Iniciais
 
 
-IMG: Passo 14
 Após a instalação, defina a senha para a conta de Administrador do sistema.
-![Criação]()
-IMG: Passo 14
 
- IMG: Passo 15
-• Para fazer o primeiro login, vá no menu superior do VirtualBox, clique em Entrada > Teclado > enviar Ctrl+Alt+Del, e digite a senha criada.
-![Criação]()
-IMG: Passo 16
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_14_Criacao_da_Senha_de_Administrador.png)
 
 
+Para fazer o primeiro login, vá no menu superior do VirtualBox, clique em Entrada > Teclado > enviar Ctrl+Alt+Del, e digite a senha criada.
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_15_Desbloqueio_de_Tela.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_15_Desbloqueio_de_Tela_Versao_2_Usando_as_Configurações_da_VM_para_o_Desbloqueio.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_17_Acesso_Administrador.png)
 
 
-IMG: Passo 18
 Assim que a área de trabalho carregar, crie um snapshot para segurança. Vá em Máquina, Snapshot, em seguida coloque o nome do snapshot e dê OK.
 
-![Criação]()
-![Criação]()
-![Criação]()
-![Criação]()
-![Criação]()
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_18_Tela_Inicial.png
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_19_Snapshoot_para_Seguranca.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_19_Snapshoot_para_Seguranca_Informar_Nome.png)
+
+![Criação](Imagens/01_Instalacao_do_Windows_Server_2022_utilizando_VirtualBox/Passo_19_Snapshoot_Sendo_Criado.png)
+
