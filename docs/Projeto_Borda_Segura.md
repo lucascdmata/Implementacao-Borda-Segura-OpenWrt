@@ -24,9 +24,26 @@
   5. Estabelecer políticas restritivas de acesso limitando o tráfego da VPN apenas aos recursos estritamente necessários da LAN (em andamento).
   6. Criar um servidor (em andamento)
  
-  6.1
-  * [Etapa 6: Instalação do Servidor na Máquina Virtual](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
-  
----
 
+  
+
+## 3. Fases de Implementação e Documentação
+
+Abaixo estão os guias detalhados de cada etapa da construção desta infraestrutura, documentados passo a passo:
+
+### Preparação do Ambiente Base (Windows Server 2022)
+Nesta fase inicial, preparamos o servidor base que atuará na rede corporativa, configurando sua identidade e conectividade para que futuramente possa hospedar serviços essenciais.
+
+* [Instalação do Servidor na Máquina Virtual](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
+  
+* Configuração de IP Estático na LAN (Em desenvolvimento)
+  
+* Padronização do Nome do Servidor Hostname (Em desenvolvimento)
+
+
+### Fase 2: Configuração da Borda (OpenWrt)
+*(Em desenvolvimento...)*
+
+### Fase 3: Segmentação de Redes e Firewall
+*(Em desenvolvimento...)*
 
