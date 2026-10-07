@@ -8,8 +8,8 @@
 
 ## 1. Introdução e Cenário Fictício
 
-* **O Cenário:** Uma pequena filial corporativa necessita prover acesso Wi-Fi para visitantes (isolando-os completamente dos computadores e dados da empresa). Além disso, a infraestrutura deve permitir que um funcionário em regime de *Home Office* acesse um servidor interno de forma totalmente segura utilizando internet móvel (4G/5G).
-* **A Solução:** Utilização de um equipamento de borda (Gateway/Roteador) executando o firmware **OpenWrt** para acumular as funções de Roteador, Firewall Stateful e Servidor VPN.
+* **O Cenário:** Uma filial corporativa precisa prover Wi-Fi para visitantes mantendo a rede interna protegida e isolada. Além disso, a infraestrutura exige um controle de acesso centralizado para estações de trabalho (Windows e Linux) e precisa permitir acesso seguro de funcionários em Home Office (via 4G/5G) aos recursos internos.
+* **A Solução:** Utilização de um roteador de borda Cudy WR300 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
 
 ---
 
