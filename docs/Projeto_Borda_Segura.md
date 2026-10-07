@@ -23,6 +23,10 @@
   4. Configurar um túnel VPN criptografado para acesso externo seguro.
   5. Estabelecer políticas restritivas de acesso limitando o tráfego da VPN apenas aos recursos estritamente necessários da LAN (em andamento).
   6. Criar um servidor (em andamento)
+ 
+  6.1
+  * [Etapa 6: Instalação do Servidor na Máquina Virtual](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
+  
 ---
 
 
