@@ -14,6 +14,12 @@ Defina um Nome (ex: Windows Server 2022).
 Escolha o local onde o arquivo da máquina virtual será salvo (C:\Users\...\VirtualBox...)
 Em Imagem ISO, selecione o arquivo baixado (procure a ISO do Windows Server 2022)
 Escolha Tipo: Microsoft Windows e Versão: Windows 2022 (64-bit).
+
+![Criação](docs/Imagens_Projeto Em Desenvolvimento/Implementação Windows Server 2022/Configurações do Servidor/Nome_do_Servidor/Passo_01_Abra_o_Server_Manager.png)
+
+
+
+
 IMG: Passo 1 
 
 IMG: Passo 2
