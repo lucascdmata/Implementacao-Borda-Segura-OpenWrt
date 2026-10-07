@@ -1,11 +1,12 @@
-Passo a Passo da Instalação do Windows Server 2022 no VirtualBox
+# Passo a Passo da Instalação do Windows Server 2022 no VirtualBox
 
-1. Início
+## Início
 
 Entre no site da Microsoft e procure pela ISO do windows Server 2022.
+
 Tenha o VirtualBox instalado em seu computador.
 
-2. Criação da Máquina Virtual
+## Criação da Máquina Virtual
 
 IMG: Passo 1 
 Abra o VirtualBox e clique em Novo.
@@ -26,7 +27,7 @@ Escolha Criar um novo disco rígido virtual e defina o tamanho (USEI UM DISCO DE
 IMG: Passo 4
 
 
-3. Instalação do Sistema
+## Instalação do Sistema
 
 
 IMG: Passo 5
@@ -43,17 +44,38 @@ Clique em Instalar agora.
 IMG: Passo 7
 
 IMG: Passo 8
+Escolha a versão desejada: selecione Windows Server 2022 Standard (Experiência Desktop) caso queira a interface gráfica (tela normal com mouse).
 IMG: Passo 8
-• 
-• 
-• 
-• Escolha a versão desejada: selecione Windows Server 2022 Standard (Experiência Desktop) caso queira a interface gráfica (tela normal com mouse), pois a opção padrão sem essa especificação instala apenas o modo texto (Server Core).
-• Aceite os termos de licença e clique em Avançar.
-• Selecione Personalizada: instalar apenas o Windows (avançado).
+
+IMG: Passo 9
+Aceite os termos de licença e clique em Avançar.
+IMG: Passo 9
+
+IMG: Passo 10
+Selecione Personalizada: instalar apenas o Windows (avançado).
+IMG: Passo 10
+
+IMG: Passo 11
 • Escolha o disco virtual criado e clique em Avançar. A instalação dos arquivos vai começar.
+IMG: Passo 11
+
+IMG: Passo 12
 • O sistema vai reiniciar sozinho algumas vezes.
+IMG: Passo 13
 
-5. Configurações Iniciais
+## Configurações Iniciais
 
-• Após a instalação, defina a senha para a conta de Administrador do sistema.
+
+IMG: Passo 14
+Após a instalação, defina a senha para a conta de Administrador do sistema.
+IMG: Passo 14
+
+ IMG: Passo 15
 • Para fazer o primeiro login, vá no menu superior do VirtualBox, clique em Entrada > Teclado > enviar Ctrl+Alt+Del, e digite a senha criada.
+IMG: Passo 16
+
+
+IMG: Passo 18
+Assim que a área de trabalho carregar, crie um snapshot para segurança. Vá em Máquina, Snapshot, em seguida coloque o nome do snapshot e dê OK.
+
+
