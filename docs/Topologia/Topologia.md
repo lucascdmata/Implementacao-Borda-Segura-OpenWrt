@@ -1,6 +1,6 @@
 
 
 
+![Criação](docs/Topologia/Diagrama/Topologia.LaboratorioDoMax.png)
 
 
-docs/Topologia/Diagrama/Topologia.LaboratorioDoMax.png
