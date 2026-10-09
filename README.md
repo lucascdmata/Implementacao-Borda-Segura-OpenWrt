@@ -24,7 +24,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * `/topologia` -> Diagramas [Detalhes](docs/Topologia/Imagem.md)
 * 
 
-## 🚀 Roadmap e Atualizações do Projeto
+## 🚀 Atualizações do Projeto
 
 **Fase 1: Infraestrutura de Borda e Segurança (Concluída ✅)**
 * Criação das interfaces corporativa (172.16.x.x) e visitantes (192.168.x.x).
