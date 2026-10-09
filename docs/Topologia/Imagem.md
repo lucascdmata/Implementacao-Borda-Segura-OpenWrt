@@ -1,10 +1,19 @@
-# Passo a Passo da Instalação do Windows Server 2022 no VirtualBox
+# Topologia LaboratorioDoMax
 
-## Início
+### Entrada de Internet e Roteamento: 
 
-Entre no site da Microsoft e procure pela ISO do windows Server 2022.
+Conexão Claro -> Roteador Cudy WR300 V1.0 com OpenWrt.
 
-Tenha o VirtualBox instalado em seu computador.
 
-![Criação](docs/Topologia/Diagrama/Topologia_LaboratorioDoMax.png)
+Segmentação e Segurança: 
+
+Separação entre Wi-Fi Corporativa (172.16.x.x) e Wi-Fi Visitantes (192.168.x.x) com regras de firewall isolando as redes.
+
+
+
+Virtualização Híbrida: Máquina hospedeira em modo Bridge rodando Windows Server 2022 (AD DS, DNS, DHCP) e Debian Linux (Servidor VPN WireGuard, membro do domínio lab.do.max.local).
+
+Cenário de Acesso Remoto: Smartphone acessando a rede corporativa a partir da rede 4G/5G através da VPN WireGuard.
+
+![Criação](Diagrama/Topologia_LaboratorioDoMax.png)
 
