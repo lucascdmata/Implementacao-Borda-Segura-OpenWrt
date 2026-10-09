@@ -60,4 +60,4 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 | ID | Descrição | Status |
 |----|-----------|---------|
-| INC-001 | ![Incidente 001](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md) | ✅ Concluído |
+| INC-001 | ![Perda de Credenciais Administrativas](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md) | ✅ Concluído |
