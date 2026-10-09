@@ -1,5 +1,7 @@
 # Topologia LaboratorioDoMax (Em Desenvolvimento)
 
+## Vou adicionar mais informações conforme avanço no projeto
+
 ### Entrada de Internet e Roteamento
 
 Conexão Claro -> Roteador Cudy WR300 V1.0 com OpenWrt.
