@@ -9,6 +9,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 ## Planejamento & Topologia Alvo
 
+![Topologia da Rede](docs/Topologia/Diagrama/Topologia_LaboratorioDoMax.png)
 
 ### Visão Geral da Arquitetura
 * **Borda & Segmentação:** Roteador OpenWrt isolando as redes Corporativa (172.16.x.x) e Visitante (192.168.x.x).
