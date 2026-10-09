@@ -22,5 +22,5 @@ Máquina hospedeira em modo Bridge rodando Windows Server 2022 (AD DS, DNS, DHCP
 
 Smartphone acessando a rede corporativa a partir da rede 4G/5G usando VPN WireGuard.
 
-![Criação](Diagrama/Topologia_LaboratorioDoMax.png)
+![Criação](LabDoMax_Topologia_Alvo.png)
 
