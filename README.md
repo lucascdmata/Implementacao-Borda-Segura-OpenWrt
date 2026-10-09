@@ -21,7 +21,8 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 ## 📂 Estrutura do Repositório
 * `/docs` -> Contém a documentação completa e detalhada do projeto, configurações e evidências (nos moldes de projeto técnico corporativo).
-* `/topology` -> Diagramas lógicos e físicos da rede.
+* `/topologia` -> Diagramas [Detalhes](docs/Topologia/Imagem.md)
+* 
 
 ## 🚀 Roadmap e Atualizações do Projeto
 
