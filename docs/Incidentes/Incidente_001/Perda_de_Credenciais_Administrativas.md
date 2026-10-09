@@ -5,7 +5,7 @@ Data: 03/Outubro/2026
  
 ### Problema
 
-Eu esqueci a senha administrativa do roteador.
+Eu esqueci a senha administrativa do roteador. 😅
 
 Após avaliar os arquivos de configuração, constatei que durante a implementação do ambiente OpenWrt, a senha administrativa do roteador não foi documentada adequadamente, impossibilitando o acesso via interface LuCI / SSH.
 
