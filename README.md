@@ -11,10 +11,10 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 
 ### Visão Geral da Arquitetura
-* **Borda & Segmentação:**
-* **Serviços de Domínio:**
-* **Acesso Remoto & Linux:**
-* **Monitoramento NOC:** Samsung
+* **Borda & Segmentação:** Roteador OpenWrt isolando as redes Corporativa (172.16.x.x) e Visitante (192.168.x.x).
+* **Serviços de Domínio:** Windows Server 2022 atuando Controlador de Domínio (lab.do.max.local), DNS e DHCP.
+* **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard.
+* **Monitoramento NOC:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede.
 
 
 
