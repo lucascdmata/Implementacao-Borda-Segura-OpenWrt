@@ -7,6 +7,18 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 **Solução:** Utilização de um roteador de borda Cudy WR300 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
 
+## Planejamento & Topologia Alvo
+
+
+### Visão Geral da Arquitetura
+* **Borda & Segmentação:**
+* **Serviços de Domínio:**
+* **Acesso Remoto & Linux:**
+* **Monitoramento NOC:** Samsung
+
+
+
+
 ## 🛠️ Tecnologias e Recursos
 * **Rede e Borda:** Roteador Cudy WR300 V1.0 (OpenWrt).
 * **Virtualização:** Oracle VM VirtualBox.
