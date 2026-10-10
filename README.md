@@ -17,6 +17,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard.
 * **Monitoramento NOC:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede.
 
+[Clique Aqui Para Ler os Detalhes da Documentação da Topologia](docs/Topologia/LabDoMax_Topologia_Alvo.md)
 
 
 
