@@ -34,29 +34,25 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
   * NAT e gerenciamento de Duplo NAT.
 
 ## 📂 Estrutura do Repositório
-* `/docs` -> Contém a documentação completa e detalhada do projeto, configurações e evidências (nos moldes de projeto técnico corporativo).
-* `/topologia` -> Diagrama e Documentação.
-* `/Incidentes` -> Problemas e Documentações que ocorreram durante a construção do projeto.
+* `/docs` -> Contém a documentação técnica detalhada da arquitetura, topologia e procedimentos de rede.
+* `/docs/Incidentes` -> Relatórios de *troubleshooting* e resolução de falhas ocorridas durante o projeto.
 
 
 ## 🚀 Atualizações do Projeto
 
-**Fase 1: Infraestrutura de Borda e Segurança (Concluída ✅)**
-* Criação das interfaces corporativa (172.16.x.x) e visitantes (192.168.x.x).
-* Configuração de redes Wi-Fi e SSIDs vinculados às respectivas interfaces.
-* Implementação de políticas de Firewall para bloqueio de tráfego da rede Visitante para a rede Corporativa.
-
-**Fase 2: Desenho da Topologia (Concluída ✅)**
-
-**Fase 3: Identidade e Gestão Centralizada (Em andamento 🔄)**
-* Instalação do Windows Server 2022 no VirtualBox (Iniciada em 04/10/2026) ✅.
-* Configuração de endereçamento IP estático do Servidor na rede Corporativa (172.16.x.x) ✅.
-* Promoção do servidor Windows a Controlador de Domínio (AD DS), DHCP e configuração de DNS (Pendente ⏳).
-* Instalação de máquina virtual Linux Debian e ingresso no domínio corporativo via Wi-Fi (Pendente ⏳).
-
-**Fase 4: Acesso Remoto Seguro VPN (Em andamento 🔄)**
-* Configuração inicial do servidor VPN WireGuard.
-* Mapeamento e contorno de barreiras de infraestrutura (Cenário de Duplo NAT com o modem da operadora).
+* **Fase 1: Infraestrutura de Borda e Segurança** (Concluída ✅)
+  * Criação das interfaces corporativa (`172.16.x.x`) e visitantes (`192.168.x.x`).
+  * Configuração de redes Wi-Fi e SSIDs vinculados às respectivas interfaces.
+  * Implementação de políticas de Firewall para bloqueio de tráfego da rede Visitante para a rede Corporativa.
+* **Fase 2: Desenho da Topologia** (Concluída ✅)
+* **Fase 3: Identidade e Gestão Centralizada** (Em andamento 🔄)
+  * Instalação do Windows Server 2022 no VirtualBox (Iniciada em 04/10/2026) ✅.
+  * Configuração de endereçamento IP estático do Servidor na rede Corporativa (`172.16.x.x`) ✅.
+  * Promoção do servidor Windows a Controlador de Domínio (AD DS), DHCP e configuração de DNS (Pendente ⏳).
+  * Instalação de máquina virtual Linux Debian e ingresso no domínio corporativo via Wi-Fi (Pendente ⏳).
+* **Fase 4: Acesso Remoto Seguro VPN** (Em andamento 🔄)
+  * Configuração inicial do servidor VPN WireGuard.
+  * Mapeamento e contorno de barreiras de infraestrutura (Cenário de Duplo NAT com o modem da operadora).
 ---
 ## Registro de Incidentes
 
