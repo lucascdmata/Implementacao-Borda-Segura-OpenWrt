@@ -37,8 +37,8 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * `/docs` -> Contém a documentação técnica detalhada da arquitetura, topologia e procedimentos de rede.
 * `/docs/Incidentes` -> Relatórios de *troubleshooting* e resolução de falhas ocorridas durante o projeto.
 
-## Centralização dos links para redirecionamento das etapas do projeto
-[Clique aqui para ler toda a documentação deste projeto e para acompanhar as etapas de desenvolvimento](docs/Projeto_Borda_Segura.md)
+## Centralização dos Links Para o Redirecionamento das Etapas do Projeto
+[Clique Aqui Para Ler Toda a Documentação Deste Projeto e Para Acompanhar as Etapas de Desenvolvimento](docs/Projeto_Borda_Segura.md)
 
 ## 🚀 Atualizações do Projeto
 
