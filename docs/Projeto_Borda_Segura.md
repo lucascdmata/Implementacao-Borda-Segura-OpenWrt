@@ -43,6 +43,8 @@
 * Promoção a Controlador de Domínio (AD DS), configuração de escopo DHCP e zonas DNS. **(Pendente ⏳)**
 * Ingresso de estação Linux Debian no domínio corporativo (`realmd`/`sssd`). **(Pendente ⏳)**
 
+[Clique aqui para ver o passo a passo de como nomear o servidor](docs/Implementacao_Windows_Server/02_Nome_do_Servidor.md)
+
 ### Fase 4: Acesso Remoto Seguro e VPN (WireGuard) 🔄
 * Instalação e provisionamento do servidor VPN Debian na rede corporativa.
 * Configuração de rotas e mapeamento de portas para contorno de Duplo NAT.
