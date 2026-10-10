@@ -43,7 +43,11 @@
 * Promoção a Controlador de Domínio (AD DS), configuração de escopo DHCP e zonas DNS. **(Pendente ⏳)**
 * Ingresso de estação Linux Debian no domínio corporativo (`realmd`/`sssd`). **(Pendente ⏳)**
 
-[Clique aqui para ver o passo a passo de como nomear o servidor](docs/Implementacao_Windows_Server/02_Nome_do_Servidor.md)
+[Clique aqui para ver o passo a passo de como instalar o Windows Server 2022 no VirtualBox](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
+
+[Clique aqui para ver o passo a passo de como nomear o servidor](Implementacao_Windows_Server/02_Nome_do_Servidor.md)
+
+[Clique aqui para ver o passo a passo de como colocar IP estático no servidor](Implementacao_Windows_Server/03_Configuracao_do_IP_do_Servidor)
 
 ### Fase 4: Acesso Remoto Seguro e VPN (WireGuard) 🔄
 * Instalação e provisionamento do servidor VPN Debian na rede corporativa.
