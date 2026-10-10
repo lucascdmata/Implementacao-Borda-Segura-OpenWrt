@@ -1,1 +1,20 @@
 
+
+
+![](Incidente_001_Imagens/Passo_01_Tentativa_de_Acesso_ao_Roteador_Com_OpenWrt.png)
+![](Incidente_001_Imagens/Passo_02_Tentativa_de_Acesso_Pelo_SSH.png)
+![](Incidente_001_Imagens/Passo_03_Confirmar_se_Esta_recebendo_IP_do_Roteador.png)
+![](Incidente_001_Imagens/Passo_04_Tentativa_de_Localizar_a_Senha_Salva_no_Navegador.png)
+![](Incidente_001_Imagens/Passo_05_Tentativa_de_Localizar_a_Senha_no_Arquivo_Backup_do_Roteador.png)
+![](Incidente_001_Imagens/Passo_06_Acesso_das_Propriedades_do_Adaptador_Ethernet.png)
+![](Incidente_001_Imagens/Passo_07_Configurando_o_IPV4_Estatico_do_Adaptador_Ethernet.png)
+![](Incidente_001_Imagens/Passo_08_Ping_para_Verificar_o_Retorno_do_Roteador___Ping-t__Apos_Ligar_o_Roteador_Pressionando_o_Reset.png)
+![](Incidente_001_Imagens/Passo_09_Desligar_o_Roteador.png)
+![](Incidente_001_Imagens/Passo_10_Ligar_o_Roteador_e_Pressionar_o_Botao_Reset_Para_Tentar_Entrar_no_Modo_FailSafe.png)
+![](Incidente_001_Imagens/Passo_11_Ping-t__apos_Ligar_o_Roteador_Nesse_Momento_Percebi_Que_o_IP_do_Roteador_Mudou_para_192.168.png)
+![](Incidente_001_Imagens/Passo_12_Apos_a_Reinicializacao_do_Roteador_Use_o_SSH_para_Entrar_no_Modo_FailSafe.png)
+![](Incidente_001_Imagens/Passo_13_Modo_FailSafe.png)
+![](Incidente_001_Imagens/Passo_14_Modo_FailSafe.png)
+![](Incidente_001_Imagens/Passo_15_Modo_FailSafe_Alterando_a_Senha_Administrativa_Reboot_Para_reiniciar_o_Roteador.png)
+![](Incidente_001_Imagens/Passo_16_IP_Voltou_ao_Normal_Apos_a_Reinicializacao_do_Roteador.png)
+![](Incidente_001_Imagens/Passo_17_Acesso_Administrativo_Recuperado.png)
