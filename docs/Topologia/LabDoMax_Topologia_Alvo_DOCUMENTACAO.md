@@ -15,6 +15,7 @@ A arquitetura foi projetada para simular um ambiente corporativo moderno, priori
 ## 🌐Segmentação de Rede (VLANs & Wi-Fi)
 A rede está dividida em duas zonas isoladas no nível de camada 2 e camada 3:
 
+![Criação](Diagrama.drawio.png)
 
 ## 🛡️Políticas de Segurança & Firewall
 
