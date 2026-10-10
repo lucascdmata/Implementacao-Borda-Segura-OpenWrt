@@ -35,7 +35,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 ## 📂 Estrutura do Repositório
 * `/docs` -> Contém a documentação completa e detalhada do projeto, configurações e evidências (nos moldes de projeto técnico corporativo).
 * `/topologia` -> Diagramas [Detalhes](docs/Topologia/Imagem.md)
-* 
+
 
 ## 🚀 Atualizações do Projeto
 
@@ -60,4 +60,4 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 | ID | Descrição | Status |
 |----|-----------|---------|
-| INC-001 | ![Perda de Credenciais Administrativas](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md) | ✅ Concluído |
+| INC-001 | [Perda de Credenciais Administrativas](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md) | ✅ Concluído |
