@@ -1,0 +1,3 @@
+# Passo a Passo para Implementar o Controlador de Domínio no Servidor
+
+![Imagem](Imagens/04_Promocao_do_Servidor_Para_Controlador_de_Dominio_AD_DS/Passo_01_Clique_na_VM_do_WinServer2022_com_o_Botao_Direito_do_Mouse_e_va_em_Configuracoes.png)
