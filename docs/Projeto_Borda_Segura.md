@@ -49,6 +49,8 @@
 
 [Clique aqui para ver o passo a passo de como colocar IP estático no servidor](Implementacao_Windows_Server/03_Configuracao_do_IP_do_Servidor)
 
+[Clique aqui para ver o passo a passo de como promover o servidor para Controlador de Domínio](Implementacao_Windows_Server/04_Promocao_do_Servidor_para_Controlador_de_Dominio.md)
+
 ### Fase 4: Acesso Remoto Seguro e VPN (WireGuard) 🔄
 * Instalação e provisionamento do servidor VPN Debian na rede corporativa.
 * Configuração de rotas e mapeamento de portas para contorno de Duplo NAT.
