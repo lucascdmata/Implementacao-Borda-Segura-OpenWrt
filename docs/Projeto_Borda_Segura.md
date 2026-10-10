@@ -1,8 +1,8 @@
 # Documentação Técnica: Implementação de Borda Corporativa Segura
 
-**Projeto:** Implementação de Borda Corporativa Segura com OpenWrt e Active Directory
-**Autor:** Lucas  
-**Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes e certificação CCNA.
+* **Projeto:** Implementação de Borda Corporativa Segura com OpenWrt e Active Directory
+* **Autor:** Lucas Cavalcante
+* **Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes, administração de sistemas e preparação para a certificação CCNA.
 
 ---
 
@@ -17,30 +17,41 @@
 
 * **Objetivo Geral:** Criar uma infraestrutura de rede segura que isole diferentes perfis de usuários na borda e permita o acesso remoto criptografado à rede corporativa.
 * **Objetivos Específicos:**
-  1. Implementar segmentação de rede lógica criando uma LAN Corporativa e uma rede Guest (Visitantes).
-  2. Configurar serviços de DHCP dedicados para cada segmento de rede. (Em desenvolvimento)
-  3. Implementar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa. (Em desenvolvimento)
-  4. Configurar um túnel VPN criptografado para acesso externo seguro. (Em desenvolvimento)
-  5. Estabelecer políticas restritivas de acesso limitando o tráfego da VPN apenas aos recursos estritamente necessários da LAN (em andamento).
-  6. Criar um servidor Windows (em andamento)
-  
+  1. Implementar segmentação de rede lógica criando a LAN Corporativa (`172.16.x.x`) e a rede Guest/Visitantes (`192.168.x.x`). **(Concluído ✅)**
+  2. Configurar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa. **(Concluído ✅)**
+  3. Mapear e desenhar a arquitetura de topologia alvo e fluxo de dados. **(Concluído ✅)**
+  4. Implantar o Windows Server 2022 como Controlador de Domínio (AD DS), DNS e DHCP na LAN Corporativa. **(Em andamento 🔄)**
+  5. Integrar clientes Linux (Debian 12) ao domínio Active Directory Microsoft. **(Pendente ⏳)**
+  6. Configurar um túnel VPN criptografado (WireGuard) para acesso externo seguro em cenário de Duplo NAT. **(Em andamento 🔄)**
+
+---
+
 ## 3. Fases de Implementação e Documentação
 
-Abaixo estão os guias detalhados de cada etapa da construção desta infraestrutura, documentados passo a passo:
+### Fase 1: Infraestrutura de Borda e Segurança (OpenWrt) ✅
+* Instalação e configuração inicial do OpenWrt no Cudy WR300.
+*Criação e isolamento das interfaces de rede (Corporativa e Visitantes).
+* Regras de Firewall e Zone Forwarding para bloqueio do segmento Visitante.
 
-### Preparação do Ambiente Base (Windows Server 2022)
-Nesta fase inicial, preparamos o servidor base que atuará na rede corporativa, configurando sua identidade e conectividade para que futuramente possa hospedar serviços essenciais.
+### Fase 2: Arquitetura e Desenho da Topologia ✅
+* Mapeamento completo dos ativos, sub-redes e fluxos de comunicação.
+* 👉 [**Acesse aqui a Documentação da Topologia Detalhada**](docs/Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
 
-* [Instalação do Servidor na Máquina Virtual](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
-  
-* Configuração de IP Estático na LAN (Em desenvolvimento)
-  
-* Padronização do Nome do Servidor Hostname (Em desenvolvimento)
+### Fase 3: Identidade e Gestão Centralizada (Windows Server 2022) 🔄
+* Instalação do Windows Server 2022 no Oracle VM VirtualBox. **(Concluído ✅)**
+* Configuração de IP estático e hostname no servidor. **(Concluído ✅)**
+* Promoção a Controlador de Domínio (AD DS), configuração de escopo DHCP e zonas DNS. **(Pendente ⏳)**
+* Ingresso de estação Linux Debian no domínio corporativo (`realmd`/`sssd`). **(Pendente ⏳)**
 
+### Fase 4: Acesso Remoto Seguro e VPN (WireGuard) 🔄
+* Instalação e provisionamento do servidor VPN Debian na rede corporativa.
+* Configuração de rotas e mapeamento de portas para contorno de Duplo NAT.
 
-### Fase 2: Configuração da Borda (OpenWrt)
-*(Em desenvolvimento...)*
+---
 
-### Fase 3: Segmentação de Redes e Firewall
-*(Em desenvolvimento...)*
+## 4. Registro e Resolução de Incidentes
+
+Todos os incidentes técnicos ocorridos durante a implementação são documentados com análise de causa raiz, passos de recuperação e lições aprendidas:
+
+* [INC-001: Perda de Credenciais Administrativas no OpenWrt](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md)
 
