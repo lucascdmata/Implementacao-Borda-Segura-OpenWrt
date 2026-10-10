@@ -142,4 +142,4 @@ Após a redefinição da credencial foi executado: reboot (para reiniciar o rote
 
 ### Resolvido
 
-* **[Clique aqui para ver as imagens](docs/Incidentes/Incidente_001/Imagens_001.md)**
+* **[Clique aqui para ver as imagens](Imagens_001.md)**
