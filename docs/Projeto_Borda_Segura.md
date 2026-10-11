@@ -35,7 +35,7 @@
 
 ### Fase 2: Arquitetura e Desenho da Topologia ✅
 * Mapeamento completo dos ativos, sub-redes e fluxos de comunicação.
-* 👉 [**Acesse aqui a Documentação da Topologia Detalhada**](docs/Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
+* 👉 [**Acesse aqui a Documentação da Topologia Detalhada**](Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
 
 ### Fase 3: Identidade e Gestão Centralizada (Windows Server 2022) 🔄
 * Instalação do Windows Server 2022 no Oracle VM VirtualBox. **(Concluído ✅)**
