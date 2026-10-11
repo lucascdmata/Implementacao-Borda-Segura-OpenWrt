@@ -6,6 +6,7 @@ Este documento detalha o planejamento, a segmentação e os fluxos de comunicaç
 ### Visão Geral da Arquitetura
 A arquitetura foi projetada para simular um ambiente corporativo moderno, priorizando a segmentação de rede, controle centralizado de identidades e acesso remoto seguro.
 
+[Clique aqui para ver a Topologia](LabDoMax_Topologia_Alvo.png)
 #### Borda & Roteamento (Gateway)
 - Dispositivo: Roteador Cudy WR300 V1.0
 - Sistema Operacional: OpenWrt
