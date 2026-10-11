@@ -1,4 +1,4 @@
-# Relatório de Incidente: Gargalo de Rede e Lentidão no Espelho NetInst do Debian 12
+# Incidente 002 - Gargalo de Rede e Lentidão no Espelho NetInst do Debian 12
 
 Data do Incidente: 11/10/2026   
 Autor: Max (Suporte TI)   
