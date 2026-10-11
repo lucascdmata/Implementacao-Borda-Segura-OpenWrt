@@ -11,13 +11,13 @@ Durante o processo de provisionamento da estação de trabalho Linux (Debian 12)
 
 ## 2. Sintomas e Evidências
 
- - Comportamento Observado: A barra de progresso na etapa “Selecionar e instalar software” estagnou ao processar uma fila de mais de 1400 pacotes, exibindo tempos estimados absurdos (ex: 1h 33min restantes).  
+ - **Comportamento Observado**: A barra de progresso na etapa “Selecionar e instalar software” estagnou ao processar uma fila de mais de 1400 pacotes, exibindo tempos estimados absurdos (ex: 1h 33min restantes).  
 
- - Evidências Visuais (Capturas de Tela):
+ - **Evidências Visuais** (Capturas de Tela):
 
-  - Tela de Seleção de Espelhos: Configuração padrão inicial apontando para o redirector global deb.debian.org.
+  - **Tela de Seleção de Espelhos**: Configuração padrão inicial apontando para o redirector global deb.debian.org.
 
-  - Tela de Progresso do APT: Travamento na contagem de pacotes volumosos (ex: ambiente gráfico GNOME selecionado por padrão).
+  - **Tela de Progresso do APT**: Travamento na contagem de pacotes volumosos (ex: ambiente gráfico GNOME selecionado por padrão).
 
 ## 3. Análise de Causa Raiz
 
@@ -31,13 +31,13 @@ Escopo Excessivo na Instalação Base: A seleção prévia do ecossistema comple
 
 Para contornar o bloqueio operacional e otimizar o tempo de entrega do laboratório, foram adotadas as seguintes medidas:
 
- - Interromper Instalação: Interrupção controlada da instalação travada para evitar corrupção de estado na VM.
+ - **Interromper Instalação**: Interrupção controlada da instalação travada para evitar corrupção de estado na VM.
 
- - Ajuste de Escopo (Minimal Install): Na nova tentativa de instalação, optou-se por desmarcar o ambiente de área de trabalho pesado na ferramenta tasksel, mantendo apenas os utilitários de sistema padrão.
+ - **Ajuste de Escopo (Instalação Mínima**): Na nova tentativa de instalação, optou-se por desmarcar o ambiente de área de trabalho pesado na ferramenta tasksel, mantendo apenas os utilitários de sistema padrão.
 
- - Redução de Carga: A quantidade de pacotes exigidos via rede despencou de ~1400 para cerca de 200 pacotes essenciais, reduzindo o tempo de instalação para menos de 5 minutos.
+ - **Redução de Carga**: A quantidade de pacotes exigidos via rede despencou de ~1400 para cerca de 200 pacotes essenciais, reduzindo o tempo de instalação para menos de 5 minutos.
 
- - Pós-Instalação Planejada: O sistema base foi entregue com sucesso em modo CLI (terminal), permitindo a instalação posterior da interface gráfica de forma controlada.
+ - **Pós-Instalação Planejada**: O sistema base foi entregue com sucesso em modo CLI (terminal), permitindo a instalação posterior da interface gráfica de forma controlada.
 
 ## 5. Lições Aprendidas
 
