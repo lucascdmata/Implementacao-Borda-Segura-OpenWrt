@@ -11,7 +11,6 @@ Durante o processo de provisionamento da estação de trabalho Linux (Debian 12)
 
 ## 2. Sintomas e Evidências (Sintomatologia)
 
-
 Comportamento Observado: A barra de progresso na etapa “Selecionar e instalar software” estagnou ao processar uma fila de mais de 1400 pacotes, exibindo tempos estimados absurdos (ex: 1h 33min restantes).  
 
 Evidências Visuais (Capturas de Tela):
@@ -19,3 +18,28 @@ Evidências Visuais (Capturas de Tela):
   - Tela de Seleção de Espelhos: Configuração padrão inicial apontando para o redirector global deb.debian.org.
 
   - Tela de Progresso do APT: Travamento na contagem de pacotes volumosos (ex: ambiente gráfico GNOME selecionado por padrão).
+
+## 3. Análise de Causa Raiz
+
+Saturação do Espelho: A escolha do espelho padrão (deb.debian.org) resultou em rotas lentas ou congestionamento de banda no momento da requisição dos pacotes do ambiente gráfico.
+
+Escopo Excessivo na Instalação Base: A seleção prévia do ecossistema completo do GNOME forçou o download de mais de 1.400 pacotes individuais em uma única fase síncrona.
+
+## 4. Ação Corretiva e Resolução (Troubleshooting)
+
+Para contornar o bloqueio operacional e otimizar o tempo de entrega do laboratório, foram adotadas as seguintes medidas:
+
+Aborted Installation: Interrupção controlada da instalação travada para evitar corrupção de estado na VM.
+
+Ajuste de Escopo (Minimal Install): Na nova tentativa de instalação, optou-se por desmarcar o ambiente de área de trabalho pesado na ferramenta tasksel, mantendo apenas os utilitários de sistema padrão.
+
+Redução de Carga: A quantidade de pacotes exigidos via rede despencou de ~1400 para cerca de 200 pacotes essenciais, reduzindo o tempo de instalação para menos de 5 minutos.
+
+Pós-Instalação Planeada: O sistema base foi entregue com sucesso em modo CLI (terminal), permitindo a instalação posterior da interface gráfica de forma controlada.
+
+## 5. Lições Aprendidas
+
+Em ambientes de laboratório ou provisionamentos rápidos, o uso de imagens NetInst com ambientes gráficos completos pode gerar dependência crítica de instabilidades na rede externa.
+
+A melhor prática para ambientes enxutos é provisionar o servidor/estação em modo mínimo (CLI) e aplicar as camadas de interface ou pacotes adicionais iterativamente após o primeiro boot bem-sucedido.
+
