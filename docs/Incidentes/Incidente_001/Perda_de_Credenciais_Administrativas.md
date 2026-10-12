@@ -6,7 +6,7 @@ Ambiente: OpenWrt (Roteador Cudy WR3000 v1.0)
 Status: Resolvido
 
  
-## Resumo do ocorrido
+## Resumo do Ocorrido
 Durante a implementação do ambiente OpenWrt no roteador Cudy WR3000 v1.0, ocorreu a perda da senha administrativa, impossibilitando o acesso via interface web (LuCI) e SSH. O impacto resultou na interrupção temporária das atividades de configuração do laboratório, visto que a interface web respondia, mas recusava as tentativas de autenticação.
 
 ## 2. Diagnóstico e Resolução
