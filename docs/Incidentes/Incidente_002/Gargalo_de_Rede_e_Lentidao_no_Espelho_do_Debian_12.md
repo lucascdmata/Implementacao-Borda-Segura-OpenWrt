@@ -45,3 +45,6 @@ Em ambientes de laboratório ou provisionamentos rápidos, o uso de imagens NetI
 
 A melhor prática para ambientes enxutos é provisionar o servidor/estação em modo mínimo (CLI) e aplicar as camadas de interface ou pacotes adicionais iterativamente após o primeiro boot bem-sucedido.
 
+### Resolvido
+
+* **[Clique aqui para ver as imagens](Imagens_002.md)**
