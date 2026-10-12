@@ -62,4 +62,5 @@
 Todos os incidentes técnicos ocorridos durante a implementação são documentados com análise de causa raiz, passos de recuperação e lições aprendidas:
 
 * [INC-001: Perda de Credenciais Administrativas no OpenWrt](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md)
+* [INC-002: Gargalo de Rede e Lentidao no Espelho do Debian 12](docs/Incidentes/Incidente_002/Gargalo_de_Rede_e_Lentidao_no_Espelho_do_Debian_12.md)
 
