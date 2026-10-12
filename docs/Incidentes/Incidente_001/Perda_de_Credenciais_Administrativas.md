@@ -1,6 +1,9 @@
 # Incidente 001 - Perda de Credenciais Administrativas
 
-Data: 03/Outubro/2026
+Data do Incidente: 03/10/2026   
+Autor: Lucas   
+Ambiente: OpenWrt (Roteador Cudy WR3000 v1.0)   
+Status: Resolvido
 
  
 ### Problema
