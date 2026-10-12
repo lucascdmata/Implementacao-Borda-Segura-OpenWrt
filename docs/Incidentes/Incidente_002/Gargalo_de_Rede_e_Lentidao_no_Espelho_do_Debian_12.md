@@ -7,44 +7,24 @@ Status: Resolvido
 
 ## 1. Resumo
    
-Durante o processo de provisionamento da estação de trabalho Linux (Debian 12) destinada à integração com o Active Directory e monitorização via Zabbix, a instalação travou na fase de configuração de pacotes (tasksel). O tempo estimado de conclusão ultrapassou 1 hora e 30 minutos devido a um gargalo severo de rede no download de pacotes através do espelho oficial (deb.debian.org).
+Durante o provisionamento da estação de trabalho Debian 12 (debian-12.15.0-amd64-netinst.iso), a instalação estagnou na etapa de configuração de pacotes (tasksel), ultrapassando 1 hora e 30 minutos de espera devido a um gargalo severo de rede no download de mais de 1.400 pacotes do ambiente gráfico GNOME através do espelho oficial (deb.debian.org).
 
-## 2. Sintomas e Evidências
+## 2. Diagnóstico e Resolução
 
- - **Comportamento Observado**: A barra de progresso na etapa “Selecionar e instalar software” estagnou ao processar uma fila de mais de 1400 pacotes, exibindo tempos estimados absurdos (ex: 1h 33min restantes).  
+* **Diagnóstico**: A imagem NetInst descarrega grande parte do sistema operativo e da interface gráfica em tempo de execução via internet. A seleção padrão do ecossistema completo do GNOME sobrecarregou a largura de banda, provocando saturação e lentidão extrema no espelho remoto.
 
- - **Evidências Visuais** (Capturas de Tela):
+* **Resolução:**
 
-  - **Tela de Seleção de Espelhos**: Configuração padrão inicial apontando para o redirector global deb.debian.org.
+ - Interrompeu-se a instalação travada de forma controlada para evitar corrupção de estado na VM.
 
-  - **Tela de Progresso do APT**: Travamento na contagem de pacotes volumosos (ex: ambiente gráfico GNOME selecionado por padrão).
+ - Reiniciou-se o processo, desmarcando o ambiente gráfico pesado no menu do tasksel e mantendo apenas os utilitários padrão de sistema.
 
-## 3. Análise de Causa Raiz
+ - A carga de pacotes exigidos via rede caiu de ~1.400 para cerca de 200 itens essenciais, reduzindo o tempo total de instalação para menos de 5 minutos (sistema base entregue com sucesso em modo CLI).
 
-Natureza da Imagem NetInst: A ISO utilizada (debian-12.15.0-amd64-netinst.iso) descarrega quase a totalidade do sistema operacional e da interface gráfica diretamente da internet durante o processo de instalação.
+## 3. Lições Aprendidas
 
-Saturação do Espelho: A escolha do espelho padrão (deb.debian.org) resultou em rotas lentas ou congestionamento de banda no momento da requisição dos pacotes do ambiente gráfico.
-
-Escopo Excessivo na Instalação Base: A seleção prévia do ecossistema completo do GNOME forçou o download de mais de 1.400 pacotes individuais em uma única fase síncrona.
-
-## 4. Ação Corretiva e Resolução (Troubleshooting)
-
-Para contornar o bloqueio operacional e otimizar o tempo de entrega do laboratório, foram adotadas as seguintes medidas:
-
- - **Interromper Instalação**: Interrupção controlada da instalação travada para evitar corrupção de estado na VM.
-
- - **Ajuste de Escopo (Instalação Mínima**): Na nova tentativa de instalação, optou-se por desmarcar o ambiente de área de trabalho pesado na ferramenta tasksel, mantendo apenas os utilitários de sistema padrão.
-
- - **Redução de Carga**: A quantidade de pacotes exigidos via rede despencou de ~1400 para cerca de 200 pacotes essenciais, reduzindo o tempo de instalação para menos de 5 minutos.
-
- - **Pós-Instalação Planejada**: O sistema base foi entregue com sucesso em modo CLI (terminal), permitindo a instalação posterior da interface gráfica de forma controlada.
-
-## 5. Lições Aprendidas
-
-Em ambientes de laboratório ou provisionamentos rápidos, o uso de imagens NetInst com ambientes gráficos completos pode gerar dependência crítica de instabilidades na rede externa.
-
-A melhor prática para ambientes enxutos é provisionar o servidor/estação em modo mínimo (CLI) e aplicar as camadas de interface ou pacotes adicionais iterativamente após o primeiro boot bem-sucedido.
-
+Em instalações via imagem NetInst, a seleção prévia de ambientes gráficos completos em redes de laboratório expõe o provisionamento a gargalos de espelhos externos. A prática recomendada de engenharia e resiliência é realizar o deploy inicial em modo mínimo (CLI) e aplicar as camadas de interface ou pacotes adicionais de forma iterativa após o primeiro arranque bem-sucedido.
+ 
 ### Resolvido
 
 * **[Clique aqui para ver as imagens](Imagens_002.md)**
