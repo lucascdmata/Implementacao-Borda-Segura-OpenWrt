@@ -5,7 +5,7 @@ Autor: Max (Suporte TI)
 Ambiente: VirtualBox (Máquina Virtual Debian 12 NetInst, Modo Bridged)   
 Status: Resolvido
 
-## 1. Resumo Executivo
+## 1. Resumo
    
 Durante o processo de provisionamento da estação de trabalho Linux (Debian 12) destinada à integração com o Active Directory e monitorização via Zabbix, a instalação travou na fase de configuração de pacotes (tasksel). O tempo estimado de conclusão ultrapassou 1 hora e 30 minutos devido a um gargalo severo de rede no download de pacotes através do espelho oficial (deb.debian.org).
 
