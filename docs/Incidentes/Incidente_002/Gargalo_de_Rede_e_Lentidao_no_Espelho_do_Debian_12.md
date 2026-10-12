@@ -5,7 +5,7 @@ Autor: Max (Suporte TI)
 Ambiente: VirtualBox (Máquina Virtual Debian 12 NetInst, Modo Bridged)   
 Status: Resolvido
 
-## 1. Resumo
+## 1. Resumo do Ocorrido
    
 Durante o provisionamento da estação de trabalho Debian 12 (debian-12.15.0-amd64-netinst.iso), a instalação estagnou na etapa de configuração de pacotes (tasksel), ultrapassando 1 hora e 30 minutos de espera devido a um gargalo severo de rede no download de mais de 1.400 pacotes do ambiente gráfico GNOME através do espelho oficial (deb.debian.org).
 
