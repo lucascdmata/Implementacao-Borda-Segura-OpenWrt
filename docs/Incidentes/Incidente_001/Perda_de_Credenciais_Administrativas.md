@@ -1,6 +1,6 @@
 # Incidente 001 - Perda de Credenciais Administrativas
 
-**Autor: Lucas Cavalcante Chaves**
+**Autor: Lucas Cavalcante Chaves**    
 Contexto do Ambiente: Homelab Corporativo Simulado (lab.do.max.local / Operador: Max - Suporte TI)
 
 Data do Incidente: 03/10/2026   
