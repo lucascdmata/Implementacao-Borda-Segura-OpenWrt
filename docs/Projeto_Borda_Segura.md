@@ -29,7 +29,7 @@
 ## 3. Fases de Implementação e Documentação
 
 ### Fase 1: Infraestrutura de Borda e Segurança (OpenWrt) ✅
-* Instalação e configuração inicial do OpenWrt no Cudy WR300.
+* Instalação e configuração inicial do OpenWrt no Cudy WR3000 v1.0.
 *Criação e isolamento das interfaces de rede (Corporativa e Visitantes).
 * Regras de Firewall e Zone Forwarding para bloqueio do segmento Visitante.
 
