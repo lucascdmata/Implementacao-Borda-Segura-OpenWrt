@@ -59,8 +59,12 @@
 
 ## 4. Registro e Resolução de Incidentes
 
-Todos os incidentes técnicos ocorridos durante a implementação são documentados com análise de causa raiz, passos de recuperação e lições aprendidas:
+Todos os incidentes técnicos ocorridos durante a implementação são documentados com resumo, diagóstico e resolução e lições aprendidas:
 
-* [INC-001: Perda de Credenciais Administrativas no OpenWrt](Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md)
-* [INC-002: Gargalo de Rede e Lentidao no Espelho do Debian 12](Incidentes/Incidente_002/Gargalo_de_Rede_e_Lentidao_no_Espelho_do_Debian_12.md)
+| ID | Descrição | Status |
+|----|-----------|---------|
+| INC-001 | [Perda de Credenciais Administrativas](docs/Incidentes/Incidente_001/Perda_de_Credenciais_Administrativas.md) | ✅ Concluído |
+| INC-002 | [Gargalo de Rede e Lentidão no Espelho do Debian 12](docs/Incidentes/Incidente_002/Gargalo_de_Rede_e_Lentidao_no_Espelho_do_Debian_12.md) | ✅ Concluído |
+| INC-003 | [Bloqueio de Acesso ao Zabbix](docs/Incidentes/Incidente_003/Bloqueio_de_Acesso_ao_Zabbix.md) | ✅ Concluído |
+| INC-004 | [Recuperação de Unidade RAW e VMs via TestDisk](docs/Incidentes/Incidente_004/Recuperacao_de_Unidade_RAW_e_VMs_via_TestDisk.md) | ✅ Concluído |
 
