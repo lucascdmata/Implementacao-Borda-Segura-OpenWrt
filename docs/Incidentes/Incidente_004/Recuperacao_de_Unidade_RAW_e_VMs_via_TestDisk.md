@@ -32,3 +32,7 @@ Implementar rotinas frequentes de cópia de segurança (backup) externas para mi
 Ferramentas de recuperação de baixo nível e reestruturação de partições (como o TestDisk) são recursos indispensáveis no kit de ferramentas de um administrador de sistemas para reversão de desastres de armazenamento.
 
 Validar a integridade e o arranque dos ambientes virtualizados imediatamente após concluir processos de salvamento de dados.
+
+### Resolvido
+
+* **[Clique aqui para ver as imagens](Incidente_004_Imagens.md)**
