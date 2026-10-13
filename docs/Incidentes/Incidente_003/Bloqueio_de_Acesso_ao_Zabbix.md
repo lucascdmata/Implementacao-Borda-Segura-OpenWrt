@@ -9,11 +9,11 @@ Status: Resolvido
 
 
 
-## 1. Resumo do Ocorrido
+## Resumo do Ocorrido
 
 Durante os testes iniciais e a validação do ambiente de laboratório, ocorreram falhas sucessivas na introdução das credenciais de acesso ao painel do Zabbix. Como mecanismo de segurança nativo para mitigar ataques de força bruta, a aplicação bloqueou o utilizador após atingir o limite estipulado de tentativas falhadas, impedindo novos logins mesmo com a palavra-passe correta.
 
-## 2. Diagnóstico e Resolução
+## Diagnóstico e Resolução
 
 Para ultrapassar o bloqueio sem recorrer à reinstalação ou perda de dados, a intervenção foi realizada diretamente ao nível da base de dados relacional (MariaDB).
 
@@ -40,7 +40,7 @@ UPDATE users SET attempt_failed = 0 WHERE alias = 'Admin';
 **Confirmação e Validação:**
 Após a execução bem-sucedida do comando de atualização, o registo de falhas foi limpo, permitindo efetuar o login imediato no painel web do Zabbix.
 
-## 3. Lições Aprendidas
+## Lições Aprendidas
 
 Segurança Nativa: Compreendeu-se o funcionamento do mecanismo de bloqueio por tentativas falhadas (attempt_failed) do Zabbix.
 
