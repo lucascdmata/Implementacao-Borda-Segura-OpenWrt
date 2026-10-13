@@ -8,7 +8,7 @@ A arquitetura foi projetada para simular um ambiente corporativo moderno, priori
 
 [Clique aqui para ver a Topologia](LabDoMax_Topologia_Alvo.png)
 #### Borda & Roteamento (Gateway)
-- Dispositivo: Roteador Cudy WR300 V1.0
+- Dispositivo: Roteador Cudy WR3000 V1.0
 - Sistema Operacional: OpenWrt
 - Função Principal: Roteamento de borda, gerenciamento de VLANs/SSIDs e aplicação de políticas de Firewall.
 - Conexão WAN: Interface conectada à rede da operadora (Claro) para acesso à Internet.
