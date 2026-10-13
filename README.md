@@ -50,11 +50,12 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * **Fase 3: Identidade e Gestão Centralizada** (Em andamento 🔄)
   * Instalação do Windows Server 2022 no VirtualBox (Iniciada em 04/10/2026) ✅.
   * Configuração de endereçamento IP estático do Servidor na rede Corporativa (`172.16.x.x`) ✅.
-  * Promoção do servidor Windows a Controlador de Domínio (AD DS), DHCP e configuração de DNS (Pendente ⏳).
-  * Instalação de máquina virtual Linux Debian e ingresso no domínio corporativo via Wi-Fi (Pendente ⏳).
+  * Promoção do servidor Windows a Controlador de Domínio (AD DS), DHCP e configuração de DNS ✅.
+  * Instalação de máquina virtual Linux Debian ✅.
+  * Ingresso de máquina virtual Linux Debian no domínio corporativo (Pendente ⏳).
 * **Fase 4: Acesso Remoto Seguro VPN** (Em andamento 🔄)
   * Configuração inicial do servidor VPN WireGuard.
-  * Mapeamento e contorno de barreiras de infraestrutura (Cenário de Duplo NAT com o modem da operadora).
+
 ---
 ## Registro de Incidentes
 
