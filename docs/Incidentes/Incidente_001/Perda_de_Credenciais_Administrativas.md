@@ -11,7 +11,7 @@ Status: Resolvido
 ## Resumo do Ocorrido
 Durante a implementação do ambiente OpenWrt no roteador Cudy WR3000 v1.0, ocorreu a perda da senha administrativa, impossibilitando o acesso via interface web (LuCI) e SSH. O impacto resultou na interrupção temporária das atividades de configuração do laboratório, visto que a interface web respondia, mas recusava as tentativas de autenticação.
 
-## 2. Diagnóstico e Resolução
+## Diagnóstico e Resolução
 * **Diagnóstico:** Verificou-se que a conectividade LAN estava funcional, o serviço SSH ativo e o sistema operacional íntegro, confirmando que o problema estava restrito exclusivamente à credencial de acesso. Tentativas iniciais com senhas salvas no navegador, credenciais de outros serviços e ficheiros de backup prévios (.tar.gz) não tiveram sucesso.
 
 * **Resolução:**
@@ -26,7 +26,7 @@ Executou-se o comando mount_root para montar a partição persistente (overlay J
 
 O equipamento foi reiniciado com o comando reboot, restabelecendo com sucesso o acesso administrativo e mantendo o projeto totalmente íntegro.
 
-## 3. Lições Aprendidas
+## Lições Aprendidas
 Implementar uma política rigorosa de gerenciamento e documentação atualizada de credenciais administrativas.
 
 Configurar e validar o acesso SSH logo após a implantação inicial de novos dispositivos de rede.
