@@ -5,7 +5,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 ## 📌 Cenário Fictício
 **Problema:** Uma filial corporativa precisa prover Wi-Fi para visitantes mantendo a rede interna protegida e isolada. Além disso, a infraestrutura exige um controle de acesso centralizado para estações de trabalho (Windows e Linux) e precisa permitir acesso seguro de funcionários em Home Office (via 4G/5G) aos recursos internos.
 
-**Solução:** Utilização de um roteador de borda Cudy WR300 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
+**Solução:** Utilização de um roteador de borda Cudy WR3000 v1.0 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
 
 ## Planejamento & Topologia Alvo
 
@@ -22,7 +22,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 
 
 ## 🛠️ Tecnologias e Recursos
-* **Rede e Borda:** Roteador Cudy WR300 V1.0 (OpenWrt).
+* **Rede e Borda:** Roteador Cudy WR3000 V1.0 (OpenWrt).
 * **Virtualização:** Oracle VM VirtualBox.
 * **Sistemas Operacionais:** Windows Server 2022 e Linux Debian 12.
 * **Protocolos e Conceitos:**
