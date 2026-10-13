@@ -1,7 +1,9 @@
 # Incidente 001 - Perda de Credenciais Administrativas
 
+**Autor: Lucas Cavalcante Chaves**
+Contexto do Ambiente: Homelab Corporativo Simulado (lab.do.max.local / Operador: Max - Suporte TI)
+
 Data do Incidente: 03/10/2026   
-Autor: Lucas   
 Ambiente: OpenWrt (Roteador Cudy WR3000 v1.0)   
 Status: Resolvido
 
