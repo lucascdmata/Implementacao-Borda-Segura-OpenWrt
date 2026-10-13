@@ -2,7 +2,7 @@
 
 * **Projeto:** Implementação de Borda Corporativa Segura com OpenWrt e Active Directory
 * **Autor:** Lucas Cavalcante
-* **Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes, administração de sistemas e preparação para a certificação CCNA.
+* **Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes e administração de sistemas.
 
 ---
 
