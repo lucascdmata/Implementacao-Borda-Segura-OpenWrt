@@ -1,7 +1,9 @@
 # Incidente 003 - Bloqueio de Acesso ao Zabbix
 
-Data do Incidente: 12/10/2026      
-Autor: Max (Suporte TI)        
+**Autor: Lucas Cavalcante Chaves**    
+Contexto do Ambiente: Homelab Corporativo Simulado (lab.do.max.local / Operador: Max - Suporte TI)
+
+Data do Incidente: 12/10/2026          
 Ambiente: Painel Web do Zabbix        
 Status: Resolvido      
 
