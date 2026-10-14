@@ -1,6 +1,6 @@
-# Documentação Técnica: Implementação de Borda Corporativa Segura
+# Documentação Técnica: Simulação_Filial_Corporativa
 
-* **Projeto:** Implementação de Borda Corporativa Segura com OpenWrt e Active Directory
+* **Projeto:** Laboratório de Infraestrutura Corporativa: Borda Segura (OpenWrt), Active Directory e VPN
 * **Autor:** Lucas Cavalcante
 * **Contexto:** Projeto prático de infraestrutura voltado para consolidação de conceitos de redes e administração de sistemas.
 
