@@ -1,5 +1,5 @@
-![](Incidente_004_Imagens/001_VM_Falha.png)
 ![](Incidente_004_Imagens/01_Falha.png)
+![](Incidente_004_Imagens/001_VM_Falha.png)
 ![](Incidente_004_Imagens/Passo_01_CMD.png)
 ![](Incidente_004_Imagens/Passo_01_CMD_v2.png)
 ![](Incidente_004_Imagens/Passo_02_Explorador.png)
