@@ -1,4 +1,4 @@
-# 🛡️ Laboratório de Infraestrutura Corporativa: Borda Segura (OpenWrt), Active Directory e VPN (Em andamento)
+# 🛡️ Laboratório de Infraestrutura: Simulação de Filial Corporativa com OpenWrt, Active Directory e VPN (Em andamento)
 
 Projeto de infraestrutura de redes focado em segmentação corporativa, isolamento de visitantes (Guest Wi-Fi), gerenciamento de identidade com Active Directory e acesso remoto seguro via VPN. Desenvolvido como parte dos estudos práticos em Redes de Computadores para consolidação de conhecimentos.
 
