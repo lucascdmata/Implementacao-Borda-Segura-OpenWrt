@@ -1,4 +1,4 @@
-# Documentação Técnica: Simulação_Filial_Corporativa
+# Documentação Técnica: Simulacao_Filial_Corporativa
 
 * **Projeto:** Laboratório de Infraestrutura Corporativa: Borda Segura (OpenWrt), Active Directory e VPN
 * **Autor:** Lucas Cavalcante
