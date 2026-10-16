@@ -54,7 +54,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
   * Configuração de redes Wi-Fi e SSIDs vinculados às respectivas interfaces.
   * Implementação de políticas de Firewall para bloqueio de tráfego da rede Visitante para a rede Corporativa.
 * **Fase 2: Desenho da Topologia** (Concluída ✅)
-* **Fase 3: Identidade e Gestão Centralizada** (Em andamento 🔄)
+* **Fase 3: Identidade e Gestão Centralizada**  (Pendente ⏳).
   * Instalação do Windows Server 2022 no VirtualBox ✅.
   * Instalação do Linux Debian no VirtualBox ✅.
   * Configuração de endereçamento IP estático do Servidor na rede Corporativa (`172.16.x.x`) ✅.
@@ -62,7 +62,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
   * Instalação do Zabbix no Linux Debian ✅.
   * Criação do dashboard para monitoramento no Zabbix (Pendente ⏳).
   * Ingresso de máquina virtual Linux Debian no domínio corporativo (Pendente ⏳).
-* **Fase 4: Acesso Remoto Seguro VPN** (Em andamento 🔄)
+* **Fase 4: Acesso Remoto Seguro VPN**  (Pendente ⏳).
   * Configuração inicial do servidor VPN WireGuard. (local do servidor VPN a definir na próxima versão)
 
 ---
