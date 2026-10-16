@@ -9,7 +9,7 @@
 ## 1. Introdução e Cenário Fictício
 
 * **O Cenário:** Uma filial corporativa precisa prover Wi-Fi para visitantes mantendo a rede interna protegida e isolada. Além disso, a infraestrutura exige um controle de acesso centralizado para estações de trabalho (Windows e Linux) e precisa permitir acesso seguro de funcionários em Home Office (via 4G/5G) aos recursos internos.
-* **A Solução:** Utilização de um roteador de borda Cudy WR300 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
+* **A Solução:** Utilização de um roteador de borda Cudy WR3000 v1.0 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
 
 ---
 
@@ -19,10 +19,9 @@
 * **Objetivos Específicos:**
   1. Implementar segmentação de rede lógica criando a LAN Corporativa (`172.16.x.x`) e a rede Guest/Visitantes (`192.168.x.x`). **(Concluído ✅)**
   2. Configurar regras de Firewall para bloquear totalmente o roteamento de tráfego entre a rede Guest e a LAN Corporativa. **(Concluído ✅)**
-  3. Mapear e desenhar a arquitetura de topologia alvo e fluxo de dados. **(Concluído ✅)**
-  4. Implantar o Windows Server 2022 como Controlador de Domínio (AD DS), DNS e DHCP na LAN Corporativa. **(Em andamento 🔄)**
+  3. Desenhar a topologia. **(Concluído ✅)**
+  4. Implantar o Windows Server 2022 como Controlador de Domínio (AD DS), DNS e DHCP na LAN Corporativa. **(Concluído ✅)**
   5. Integrar clientes Linux (Debian 12) ao domínio Active Directory Microsoft. **(Pendente ⏳)**
-  6. Configurar um túnel VPN criptografado (WireGuard) para acesso externo seguro em cenário de Duplo NAT. **(Em andamento 🔄)**
 
 ---
 
@@ -40,8 +39,8 @@
 ### Fase 3: Identidade e Gestão Centralizada (Windows Server 2022) 🔄
 * Instalação do Windows Server 2022 no Oracle VM VirtualBox. **(Concluído ✅)**
 * Configuração de IP estático e hostname no servidor. **(Concluído ✅)**
-* Promoção a Controlador de Domínio (AD DS), configuração de escopo DHCP e zonas DNS. **(Pendente ⏳)**
-* Ingresso de estação Linux Debian no domínio corporativo (`realmd`/`sssd`). **(Pendente ⏳)**
+* Promoção a Controlador de Domínio (AD DS), DHCP e DNS. **(Concluído ✅)**
+* Ingresso de estação Linux Debian no domínio corporativo. **(Pendente ⏳)**
 
 [Clique aqui para ver o passo a passo de como instalar o Windows Server 2022 no VirtualBox](Implementacao_Windows_Server/01_Implementacao_Windows_Server_2022.md)
 
@@ -51,9 +50,8 @@
 
 [Clique aqui para ver o passo a passo de como promover o servidor para Controlador de Domínio](Implementacao_Windows_Server/04_Promocao_do_Servidor.md_para_Controlador_de_Dominio.md)
 
-### Fase 4: Acesso Remoto Seguro e VPN (WireGuard) 🔄
-* Instalação e provisionamento do servidor VPN Debian na rede corporativa.
-* Configuração de rotas e mapeamento de portas para contorno de Duplo NAT.
+### Fase 4: Acesso Remoto Seguro VPN  (Pendente ⏳).
+  * Configuração inicial do servidor VPN WireGuard. (local do servidor VPN a definir na próxima versão)
 
 ---
 
