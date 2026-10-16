@@ -10,11 +10,11 @@ A arquitetura foi projetada para simular um ambiente corporativo moderno, priori
 #### Borda & Roteamento (Gateway)
 - Dispositivo: Roteador Cudy WR3000 V1.0
 - Sistema Operacional: OpenWrt
-- Função Principal: Roteamento de borda, gerenciamento de VLANs/SSIDs e aplicação de políticas de Firewall.
+- Função Principal: Roteamento de borda, gerenciamento de SSIDs e aplicação de políticas de Firewall.
 - Conexão WAN: Interface conectada à rede da operadora (Claro) para acesso à Internet.
 
 ## 🌐Segmentação de Rede (VLANs & Wi-Fi)
-A rede está dividida em duas zonas isoladas no nível de camada 2 e camada 3:
+A rede está dividida em duas zonas isoladas.
 
 ![Criação](Diagrama.drawio.png)
 
@@ -38,18 +38,18 @@ A rede está dividida em duas zonas isoladas no nível de camada 2 e camada 3:
 - Escopo: Responsável por responder às requisições de nomes internos, autenticação corporativa e entrega de IP para a rede interna.
 
 
-### 3. Servidor de Acesso Remoto (Linux Debian - VPN)
+### 3. Servidor de Acesso Remoto (local do servidor VPN a definir na próxima versão)
 
-- Função: Servidor VPN WireGuard integrado ao Active Directory.
-- Integração: Ingressado no domínio lab.do.max.local para validação de credenciais.
+- Função: VPN WireGuard
+- 
 
 
 
 ## 📱Terminais e Dispositivos Clientes
 
-- Estação de Trabalho Linux: Máquina Virtual Debian 12 integrada como membro ativo do Active Directory.
-- Terminal NOC / Monitoramento: Smartphone Samsung Galaxy J1 conectado via Wi-Fi Corporativa, utilizado como painel dedicado para monitoramento via HTTP dos serviços locais.
-- Smartphone (Acesso Visitante & Remoto):
+- Estação de Trabalho Linux: Máquina Virtual Debian 12 integrada como membro ativo do Active Directory (Pendente ⏳).
+- Terminal NOC / Monitoramento: Smartphone Samsung Galaxy J1 conectado via Wi-Fi Corporativa, utilizado como painel dedicado para monitoramento via HTTP dos serviços locais.  (Pendente ⏳).
+- Smartphone (Acesso Visitante & Remoto) (Pendente ⏳): 
   - Quando conectado na rede local via Wi-Fi Visitantes, possui acesso apenas à Internet.
   - Quando fora do ambiente local (via 4G/5G), utiliza o cliente WireGuard para fechar um túnel criptografado com o Servidor VPN Debian, obtendo acesso seguro à rede Corporativa.
 
@@ -59,5 +59,5 @@ A rede está dividida em duas zonas isoladas no nível de camada 2 e camada 3:
 
 1° Tráfego Interno (Corporativo): Dispositivos na sub-rede 172.16.x.x utilizam o Windows Server como DNS primário e o OpenWrt como Gateway padrão.
 
-2° Tráfego Externo (VPN): O cliente mobile na rede externa (4G/5G) estabelece um túnel UDP com o IP de borda do OpenWrt, que redireciona o tráfego da porta VPN para o servidor Debian interno (descontando tratamentos de Duplo NAT, se necessário).
+2° Tráfego Externo (VPN): (Pendente ⏳).
 
