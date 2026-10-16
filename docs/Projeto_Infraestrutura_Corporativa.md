@@ -46,10 +46,6 @@
 
 [Clique aqui para ver o passo a passo de como nomear o servidor](Implementacao_Windows_Server/02_Nome_do_Servidor.md)
 
-[Clique aqui para ver o passo a passo de como colocar IP estático no servidor](Implementacao_Windows_Server/03_Configuracao_do_IP_do_Servidor)
-
-[Clique aqui para ver o passo a passo de como promover o servidor para Controlador de Domínio](Implementacao_Windows_Server/04_Promocao_do_Servidor.md_para_Controlador_de_Dominio.md)
-
 ### Fase 4: Acesso Remoto Seguro VPN  (Pendente ⏳).
   * Configuração inicial do servidor VPN WireGuard. (local do servidor VPN a definir na próxima versão)
 
