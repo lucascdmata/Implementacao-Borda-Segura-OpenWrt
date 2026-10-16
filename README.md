@@ -6,7 +6,7 @@
 
 
 
-# 🛡️ Laboratório de Infraestrutura: Simulação de Filial Corporativa com OpenWrt, Active Directory e VPN (Em andamento)
+# 🛡️ Laboratório de Infraestrutura: Simulação de Filial Corporativa com OpenWrt, Active Directory e VPN (Em pausa temporária)
 
 Projeto de infraestrutura de redes focado em segmentação corporativa, isolamento de visitantes (Guest Wi-Fi), gerenciamento de identidade com Active Directory e acesso remoto seguro via VPN. Desenvolvido como parte dos estudos práticos em Redes de Computadores para consolidação de conhecimentos.
 
@@ -22,7 +22,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 ### Visão Geral da Arquitetura (Essa é a visão alvo, projeto pausado temporariamente)
 * **Borda & Segmentação:** Roteador OpenWrt isolando as redes Corporativa (172.16.x.x) e Visitante (192.168.x.x).
 * **Serviços de Domínio:** Windows Server 2022 atuando Controlador de Domínio (lab.do.max.local), DNS e DHCP.
-* **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard (Pendente ⏳).
+* **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD (Pendente ⏳).
 * **Monitoramento:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede (Pendente ⏳).
 
 [Clique Aqui Para Ler os Detalhes da Documentação da Topologia](docs/Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
