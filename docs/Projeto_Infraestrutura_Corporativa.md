@@ -22,7 +22,7 @@
   3. Desenhar a topologia. **(Concluído ✅)**
   4. Implantar o Windows Server 2022 como Controlador de Domínio (AD DS), DNS e DHCP na LAN Corporativa. **(Concluído ✅)**
   5. Integrar clientes Linux (Debian 12) ao domínio Active Directory Microsoft. **(Pendente ⏳)**
-
+  6. Acesso Remoto Seguro VPN  (local do servidor VPN a definir na próxima versão).
 ---
 
 ## 3. Fases de Implementação e Documentação
