@@ -25,7 +25,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard (Pendente ⏳).
 * **Monitoramento:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede (Pendente ⏳).
 
-[Clique Aqui Para Ler os Detalhes da Documentação da Topologia](docs/Projeto_Infraestrutura_Corporativa.md)
+[Clique Aqui Para Ler os Detalhes da Documentação da Topologia](docs/Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
 
 
 
@@ -45,7 +45,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 * `/docs/Incidentes` -> Relatórios de *troubleshooting* e resolução de falhas ocorridas durante o projeto.
 
 ## Centralização dos Links Para o Redirecionamento das Etapas do Projeto
-[Clique Aqui Para Ler Toda a Documentação Deste Projeto e Para Acompanhar as Etapas de Desenvolvimento](docs/Projeto_Borda_Segura.md)
+[Clique Aqui Para Ler Toda a Documentação Deste Projeto e Para Acompanhar as Etapas de Desenvolvimento](docs/Projeto_Infraestrutura_Corporativa.md)
 
 ## 🚀 Atualizações do Projeto
 
