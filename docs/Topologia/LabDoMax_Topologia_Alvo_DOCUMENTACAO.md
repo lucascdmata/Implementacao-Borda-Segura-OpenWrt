@@ -13,7 +13,7 @@ A arquitetura foi projetada para simular um ambiente corporativo moderno, priori
 - Função Principal: Roteamento de borda, gerenciamento de SSIDs e aplicação de políticas de Firewall.
 - Conexão WAN: Interface conectada à rede da operadora (Claro) para acesso à Internet.
 
-## 🌐Segmentação de Rede (VLANs & Wi-Fi)
+## 🌐Segmentação de Rede (Interfaces & Wi-Fi)
 A rede está dividida em duas zonas isoladas.
 
 ![Criação](Diagrama.drawio.png)
