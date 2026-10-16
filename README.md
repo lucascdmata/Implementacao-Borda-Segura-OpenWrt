@@ -13,33 +13,32 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
 ## 📌 Cenário Fictício
 **Problema:** Uma filial corporativa precisa prover Wi-Fi para visitantes mantendo a rede interna protegida e isolada. Além disso, a infraestrutura exige um controle de acesso centralizado para estações de trabalho (Windows e Linux) e precisa permitir acesso seguro de funcionários em Home Office (via 4G/5G) aos recursos internos.
 
-**Solução:** Utilização de um roteador de borda Cudy WR3000 v1.0 com firmware OpenWrt atuando como Gateway, Firewall e Servidor VPN, operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
+**Solução:** Utilização de um roteador de borda Cudy WR3000 v1.0 com firmware OpenWrt atuando como Gateway e Firewall (local do servidor VPN a definir na próxima versão), operando em conjunto com um servidor Windows Server 2022 (controlador de domínio) para gerenciar as credenciais e a resolução de nomes da rede corporativa.
 
 ## Planejamento & Topologia Alvo
 
 ![Topologia da Rede](docs/Topologia/LabDoMax_Topologia_Alvo.png)
 
-### Visão Geral da Arquitetura
+### Visão Geral da Arquitetura (Essa é a visão alvo, projeto pausado temporariamente)
 * **Borda & Segmentação:** Roteador OpenWrt isolando as redes Corporativa (172.16.x.x) e Visitante (192.168.x.x).
 * **Serviços de Domínio:** Windows Server 2022 atuando Controlador de Domínio (lab.do.max.local), DNS e DHCP.
-* **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard.
-* **Monitoramento NOC:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede.
+* **Acesso Remoto & Linux:** Servidor Debian 12 integrado ao AD e executando serviço de VPN WireGuard (Pendente ⏳).
+* **Monitoramento:** Samsung Galaxy J1 atuando como dashboard dedicado de status da rede (Pendente ⏳).
 
 [Clique Aqui Para Ler os Detalhes da Documentação da Topologia](docs/Topologia/LabDoMax_Topologia_Alvo_DOCUMENTACAO.md)
 
 
 
-## 🛠️ Tecnologias e Recursos
+## 🛠️ Tecnologias e Recursos Alvo
 * **Rede e Borda:** Roteador Cudy WR3000 V1.0 (OpenWrt).
 * **Virtualização:** Oracle VM VirtualBox.
 * **Sistemas Operacionais:** Windows Server 2022 e Linux Debian 12.
 * **Protocolos e Conceitos:**
-  * VLANs (802.1Q) e múltiplos SSIDs.
-  * Firewall Stateful e regras de zona (Zones & Forwarding Rules).
+  * Múltiplos SSIDs.
+  * FirewallS e regras de zona (Zones & Forwarding Rules).
   * Active Directory Domain Services (AD DS), DHCP e DNS.
-  * Integração de cliente Linux em domínio Microsoft (`realmd`, `sssd`).
-  * VPN Criptografada (WireGuard / OpenVPN).
-  * NAT e gerenciamento de Duplo NAT.
+  * Integração de cliente Linux em domínio Microsoft (`realmd`, `sssd`) (Pendente ⏳).
+  * VPN (WireGuard) (Pendente ⏳).
 
 ## 📂 Estrutura do Repositório
 * `/docs` -> Contém a documentação técnica detalhada da arquitetura, topologia e procedimentos de rede.
@@ -64,7 +63,7 @@ Projeto de infraestrutura de redes focado em segmentação corporativa, isolamen
   * Criação do dashboard para monitoramento no Zabbix (Pendente ⏳).
   * Ingresso de máquina virtual Linux Debian no domínio corporativo (Pendente ⏳).
 * **Fase 4: Acesso Remoto Seguro VPN** (Em andamento 🔄)
-  * Configuração inicial do servidor VPN WireGuard.
+  * Configuração inicial do servidor VPN WireGuard. (local do servidor VPN a definir na próxima versão)
 
 ---
 ## Registro de Incidentes
